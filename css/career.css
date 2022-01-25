@@ -1,0 +1,63 @@
+.biz-topbar-info-list ul li{
+    color: black;
+}
+
+.top-social-list li a{
+    color: black;
+}
+
+nav.navbar.bootsnav.style-2{
+    background: white;
+}
+
+nav.navbar.bootsnav ul.nav > li > a{
+    color: black;
+}
+
+nav.navbar.bootsnav ul.nav > li > a:hover{
+    color: #1ebaed ;
+}
+
+.career-area{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.card{
+    width: 450px;
+    margin: 0 25px;
+    padding: 35px 25px;
+    text-align: center;
+    border: 0.5px solid #c4d8dc;
+    border-radius: 5px;
+    box-shadow: gray;
+    box-shadow: 0 10px 20px rgba(153, 212, 204, 0.17), 0 6px 6px rgba(87, 134, 75, 0.38);
+}
+
+.card hr{
+    border-top: 2px solid;
+}
+
+.card .subtitle{
+    font-weight: 600;
+}
+
+.card ul{
+    text-align: left;
+    list-style-type: circle;
+}
+
+.card ul li{
+    margin-left: 35px;
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
+
+.career-btn{
+    position: absolute;
+    bottom: -22px;
+    left: 185px;
+}
+
+.biz-btn-solid.style-1:hover{
+    background-color: white;
+}
