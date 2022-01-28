@@ -381,6 +381,10 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
 
     /*team section*/
+    .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
+        padding-left: 18px;
+        padding-right:18px;
+    }
     .biz-team-three-img {
         height: 120px;
     }
@@ -615,6 +619,10 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
 
     /*team section*/
+    .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
+        padding-left: 18px;
+        padding-right:18px;
+    }
     .biz-team-three-img {
         height: 135px;
     }
@@ -867,6 +875,10 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
 
     /*team section*/
+    .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     .biz-team-three-img {
         height: 140px;
     }
@@ -1002,6 +1014,18 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
     .insights-area{
         margin: 0px 30px;
+    }
+}
+@media screen and (max-width: 427px) and (min-width: 415px) {
+    .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+}
+@media screen and (max-width: 480px) and (min-width: 428px) {
+    .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
+        padding-left: 35px;
+        padding-right: 35px;
     }
 }
 
@@ -1190,12 +1214,12 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
 }
 
-/* @media screen and (max-width: 511px) and (min-width: 395px) {
+@media screen and (max-width: 511px) and (min-width: 481px) {
     .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
-} */
+}
 
 /* Extra Small Devices, Phones */
 @media screen and (max-width: 568px) and (min-width: 481px) {
@@ -2369,3 +2393,6 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
 
 }
+
+
+
