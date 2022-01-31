@@ -265,7 +265,6 @@ Author: https://themeforest.net/user/ka_boldbaatar
     .top-blog .col-md-5 p{
         text-indent: 30px;
    }
-
    .insights-area{
     margin: 0px 20px;
     }   
@@ -381,10 +380,6 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
 
     /*team section*/
-    .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
-        padding-left: 18px;
-        padding-right:18px;
-    }
     .biz-team-three-img {
         height: 120px;
     }
@@ -507,7 +502,18 @@ Author: https://themeforest.net/user/ka_boldbaatar
         margin: 0px 30px;
     }    
 }
-
+@media screen and (max-width: 352px) and (min-width: 321px) {
+    .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
+        padding-left: 18px;
+        padding-right:18px;
+    }
+}
+@media screen and (max-width: 360px) and (min-width: 353px) {
+    .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
+        padding-left: 30px;
+        padding-right:30px;
+    }
+}
 /* Custom, iPhone Retina */
 @media screen and (max-width: 375px) and (min-width: 361px) {
     nav.navbar.bootsnav {
@@ -620,8 +626,8 @@ Author: https://themeforest.net/user/ka_boldbaatar
 
     /*team section*/
     .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
-        padding-left: 18px;
-        padding-right:18px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .biz-team-three-img {
         height: 135px;
@@ -765,6 +771,18 @@ Author: https://themeforest.net/user/ka_boldbaatar
         margin: 0px 30px;
     }
 }
+@media screen and (max-width: 400px) and (min-width: 375px) {
+    .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+}
+@media screen and (max-width: 415px) and (min-width: 401px) {
+    .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
 
 /* Extra Small Devices, Phones */
 @media screen and (max-width: 415px) and (min-width: 375px) {
@@ -875,10 +893,6 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
 
     /*team section*/
-    .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
     .biz-team-three-img {
         height: 140px;
     }
@@ -1018,17 +1032,22 @@ Author: https://themeforest.net/user/ka_boldbaatar
 }
 @media screen and (max-width: 427px) and (min-width: 415px) {
     .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
-        padding-left: 22px;
-        padding-right: 22px;
+        padding-left: 29px;
+        padding-right: 29px;
     }
 }
-@media screen and (max-width: 480px) and (min-width: 428px) {
+@media screen and (max-width: 451px) and (min-width: 428px) {
     .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
         padding-left: 35px;
         padding-right: 35px;
     }
 }
-
+@media screen and (max-width: 480px) and (min-width: 451px) {
+    .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
+        padding-left: 43px;
+        padding-right: 43px;
+    }
+}
 /* Extra Small Devices, Phones */
 @media screen and (max-width: 480px) and (min-width: 415px) {
     /*top navbar*/
