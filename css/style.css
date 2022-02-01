@@ -3266,7 +3266,6 @@ body {
 /* css of insights-page */
 .top-insights{
      background-color: #E6F8FC;
-     ;
 }
 .top-insights .top-insights-image{
      padding-left: 0px;
@@ -3275,15 +3274,15 @@ body {
      margin-top: 19px;
      margin-bottom: 10px;
 }
-.top-insights-text .hours{
+.top-insights-text .hours, .top-blog .hours{
      color: #000;
      font-weight: 600;
      margin-right: 40px;
 }
-.top-insights-text .hours .numbers{
+.top-insights-text .hours .numbers, .top-blog .hours .numbers{
      color: rgb(117, 189, 8);
 }
-.top-insights-text span i{
+.top-insights-text span i, .top-blog span i{
      margin-right: 10px;
 }
 .top-insights-text a{
@@ -3301,21 +3300,57 @@ body {
 .blogs{
      background-color: #000;
      border-radius: 10px;
-     height: 400px;
+     height: 510px;
+}
+.blog-image{
+     border-radius: 5px 5px 0 0;
 }
 .down-insights-text{
-     padding: 25px;
+     padding: 15px 25px;
 }
 .down-insights .col-md-4 a img{
      width: 100%;
      height: 200px;
 }
-.down-insights .col-md-4 .blogs a h5{
+.down-insights-text span{
+     font-weight: bold;
+}
+.down-insights-text h5{
      color: #1ebaed;
 }
-.down-insights .col-md-4 .blogs a p{
+.down-insights-text p{
      line-height: 25px;
      color: #767676;
+}
+.down-insights-text .author{
+     display: flex;
+}
+.author-names{
+     margin: 0px 10px;
+}
+.author-name{
+     color: white;
+     font-weight: normal;
+}
+.author-role{
+     font-size: 12px;
+     font-weight: normal;
+}
+.down-insights-text .down-insights-image{
+     width: 45px;
+     height: 45px;
+}
+.down-insights-image img{
+     max-width: 100%;
+     max-height: 100%;
+     border-radius: 50%;
+
+}
+.top-blog{
+     background-color: #E6F8FC;
+}
+.top-blog-image{
+     padding-right: 0px;
 }
 .top-blog .col-md-6 img{
      width: 100%;
@@ -3323,9 +3358,21 @@ body {
 }
 .down-blog{
      background-color:#092b31;
+     padding: 30px 20px;
+}
+.down-blog .col-md-12 ol{
+     list-style-type: decimal; 
+     color:white;
+}
+.down-blog .col-md-12 ol li{
+     font-weight: bold;
 }
 .down-blog .col-md-12 p{
      line-height: 25px;
      color: #767676;
+     margin-top: 5px;
+}
+.points{
+     margin-bottom: 20px;
 }
 /* end of insights-page */
