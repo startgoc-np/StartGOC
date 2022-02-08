@@ -267,7 +267,13 @@ Author: https://themeforest.net/user/ka_boldbaatar
    }
    .insights-area{
     margin: 0px 20px;
-    }   
+    } 
+    .top-insights{
+        padding-bottom: 20px;
+    }
+    .blogs{
+        height: 675px;
+    }  
 }
 
 /* Custom, iPhone Retina */
@@ -500,7 +506,13 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
     .insights-area{
         margin: 0px 30px;
-    }    
+    }  
+    .top-insights{
+        padding-bottom: 20px;
+    }  
+    .blogs{
+        height: 615px;
+    }
 }
 @media screen and (max-width: 352px) and (min-width: 321px) {
     .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
@@ -770,6 +782,12 @@ Author: https://themeforest.net/user/ka_boldbaatar
     .insights-area{
         margin: 0px 30px;
     }
+    .top-insights{
+        padding-bottom: 20px;
+    }
+    .blogs{
+        height: 585px;
+    }
 }
 @media screen and (max-width: 400px) and (min-width: 375px) {
     .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
@@ -1029,20 +1047,38 @@ Author: https://themeforest.net/user/ka_boldbaatar
     .insights-area{
         margin: 0px 30px;
     }
+    .top-insights{
+        padding-bottom: 20px;
+    }
+    .blogs{
+        height: 565px;
+    }
 }
 @media screen and (max-width: 427px) and (min-width: 415px) {
+    /* team-section */
     .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
         padding-left: 29px;
         padding-right: 29px;
     }
+    /* blog-page */
+    .blogs{
+        height: 550px;
+    }
 }
 @media screen and (max-width: 451px) and (min-width: 428px) {
+    /* team-section */
     .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
         padding-left: 35px;
         padding-right: 35px;
     }
+    /* blog-page */
+    .blogs{
+        height: 550px;
+    }
+
 }
 @media screen and (max-width: 480px) and (min-width: 451px) {
+    /* team-section */
     .team-three-wrap .container .row .carousel-inner .item .col-md-3, .team-three-wrap .container .row .carousel-inner .item .col-sm-6, .team-three-wrap .container .row .carousel-inner .item .col-xs-6{
         padding-left: 43px;
         padding-right: 43px;
@@ -1231,6 +1267,9 @@ Author: https://themeforest.net/user/ka_boldbaatar
     .insights-area{
         margin: 0px 30px;
     }
+    .top-insights{
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 511px) and (min-width: 481px) {
@@ -1382,6 +1421,9 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
     .insights-area{
         margin: 0px 30px;
+    }
+    .top-insights{
+        padding-bottom: 20px;
     }
 }
 @media screen and (max-width: 550px) and (min-width: 481px) {
@@ -1549,6 +1591,9 @@ Author: https://themeforest.net/user/ka_boldbaatar
     .insights-area{
         margin: 0px 30px;
     }
+    .top-insights{
+        padding-bottom: 20px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1704,6 +1749,9 @@ Author: https://themeforest.net/user/ka_boldbaatar
     /* insights-page */
     .insights-area{
         margin: 0px 30px;
+    }
+    .top-insights{
+        padding-bottom: 20px;
     }
 }
 /* Small Devices, Tablets */
@@ -2002,6 +2050,11 @@ Author: https://themeforest.net/user/ka_boldbaatar
     .career-btn{
         left: 120px;
     }
+
+    /* blog page */
+    .top-insights{
+        padding-bottom: 20px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -2115,7 +2168,17 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
 
      /* blog page */
-     .top-blog .col-md-7 img{
+    .insights-area{
+        padding-top: 200px;
+    }
+    .top-insights-text p{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .blogs{
+        height: 570px;
+    }
+    .top-blog .col-md-7 img{
         height: 450px ;
     }
 }
@@ -2217,7 +2280,17 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
 
      /* blog page */
-     .top-blog .col-md-7 img{
+    .insights-area{
+        padding-top: 200px;
+    }
+    .top-insights-text p{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .blogs{
+        height: 570px;
+    }
+    .top-blog .col-md-7 img{
         height: 450px ;
     }
 }
@@ -2311,9 +2384,19 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
 
     /* blog page */
+    .insights-area{
+        padding-top: 200px;
+    }
     .top-blog .col-md-7 img{
         height: 450px ;
     }
+    .top-insights-text p{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .blogs{
+        height: 570px;
+    } 
 }
 
 
@@ -2364,8 +2447,18 @@ Author: https://themeforest.net/user/ka_boldbaatar
     }
 
     /* blog page */
+    .insights-area{
+        padding-top: 200px;
+    }
     .top-blog .col-md-7 img{
         height: 450px ;
+    }
+    .top-insights-text p{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .blogs{
+        height: 570px;
     }
 }
 
