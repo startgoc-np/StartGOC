@@ -3354,31 +3354,35 @@ body {
 .top-blog-image{
      padding-right: 0px;
 }
+.top-blog .col-md-6 p{
+     font-size: 18px;
+}
 .top-blog .col-md-6 img{
      width: 100%;
      height: 350px ;
 }
 .down-blog{
-     /* background-color:#092b31; */
      padding: 30px 20px;
 }
-.down-blog .col-md-12{
-     background-color:#092b31;
+/* .down-blog .col-md-12{
      padding: 10px 50px;
-}
+} */
 .down-blog .col-md-12 ol{
      list-style-type: decimal; 
-     color:white;
+     font-size: 24px;
 }
 .down-blog .col-md-12 ol li{
      font-weight: bold;
 }
 .down-blog .col-md-12 p{
+     font-size: 18px;
      line-height: 25px;
-     color: #fff;
      margin-top: 5px;
 }
 .points{
      margin-bottom: 20px;
+}
+.points .image{
+     margin-top: 20px;
 }
 /* end of insights-page */

@@ -176,7 +176,7 @@
                                 <div class="row top-blog">
                                     <div class="col-md-6 pt-20">
                                         <h3 class="style-1 color-1">Beneficial of learning PHP Programming language.</h3>
-                                        <p class="style-1 mt-20 mb-90">PHP (Hypertext Preprocessor) is known as a general-purpose scripting language that can be used to develop dynamic and interactive websites. It was among the first server-side languages that could be embedded into HTML, making it easier to add functionality to web pages without needing to call external files for data.
+                                        <p class="style-1 mt-20 mb-90"><span style="font-weight: bold;">PHP (Hypertext Preprocessor)</span> is known as a general-purpose scripting language that can be used to develop dynamic and interactive websites. It was among the first server-side languages that could be embedded into HTML, making it easier to add functionality to web pages without needing to call external files for data.
                                         </p>
                                         <span class="hours"><i class="icon fa fa-clock-o" style="font-size:20px;"></i><span class="numbers">42</span> hours</span>
                                         <span class="hours"><i class="fa fa-calendar" style="font-size:18px;"></i><span class="numbers">01</span> Feb, 2022</span>
@@ -199,7 +199,7 @@
                                                 </div>
                                                 <div class="points">
                                                     <li>Versatile :</li>
-                                                    <p>One of the major benefits of PHP is that it is platform independent, meaning it can be used on Mac OS, Windows, Linux and supports most web browsers. It also supports all the major web servers, making it easy to deploy on different systems and platforms at minimal additional cost.
+                                                    <p>One of the major benefits of PHP is that it is platform independent, meaning it can be used on <span style="font-weight: bold;">Mac OS, Windows, Linux</span> and supports most web browsers. It also supports all the major web servers, making it easy to deploy on different systems and platforms at minimal additional cost.
                                                     </p>
                                                 </div>
                                                 <div class="points">
@@ -214,7 +214,7 @@
                                                         </div>
                                                         <div class="points">
                                                             <li>Widely Used :</li>
-                                                            <p>Popular applications like blogs (WordPress), and wikis (MediaWiki). Some applications may be dated, but they're still used a lot. We hear about statistics that 80% of web sites use PHP, but this probably includes literally millions of domains that are nothing but a hosted domain running WordPress.
+                                                            <p>Popular applications like blogs <span style="font-weight: bold;">WordPress</span>, and wikis <span style="font-weight: bold;">MediaWiki</span>. Some applications may be dated, but they're still used a lot. We hear about statistics that 80% of web sites use PHP, but this probably includes literally millions of domains that are nothing but a hosted domain running WordPress.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -342,6 +342,38 @@
         </div>
     </div>
     <!--end preloader-->
+
+    <!-- Start of Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104491648772867");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- End of Messenger Chat plugin Code -->
 
     <!--=========== all js file link ==============-->
     <!-- main jQuery -->
